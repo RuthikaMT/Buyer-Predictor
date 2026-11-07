@@ -101,9 +101,10 @@ tab_single, tab_compare, tab_data = st.tabs(["🔍 Selected model", "📊 Compar
 with tab_single:
     pred, prob, m = evaluate(models[model_name], X, y, threshold)
     st.subheader(f"{model_name} — evaluation metrics")
-    cols = st.columns(6)
-    for col, (k, v) in zip(cols, m.items()):
-        col.metric(k, f"{v:.4f}")
+    items = list(m.items())
+    for row in (items[:3], items[3:]):
+        for col, (k, v) in zip(st.columns(3), row):
+            col.metric(k, f"{v:.4f}")
 
     left, right = st.columns(2)
     with left:

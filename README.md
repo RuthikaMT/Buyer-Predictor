@@ -3,8 +3,8 @@
 **M.Tech (AIML) · Machine Learning · Assignment 2**
 Student: `Ruthika M T` 
 
-- **GitHub repository:** https://github.com/<your-username>/<repo-name>
-- **Live Streamlit app:** https://<your-app-name>.streamlit.app
+- **GitHub repository:** https://github.com/RuthikaMT/Buyer-Predictor
+- **Live Streamlit app:** https://buyer-predictor-sucxuboffzxhkdprjhzcrf.streamlit.app
 
 ---
 
@@ -49,7 +49,7 @@ evaluates the saved models on an uploaded test file without retraining.
 
 ## c. GitHub repository
 
-https://github.com/<your-username>/<repo-name>
+https://github.com/RuthikaMT/Buyer-Predictor
 
 ```
 ml-assignment-2/

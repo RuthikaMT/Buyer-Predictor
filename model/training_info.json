@@ -1,0 +1,26 @@
+{
+  "dataset": "UCI Online Shoppers Purchasing Intention",
+  "rows": 12330,
+  "features": 17,
+  "train_rows": 9864,
+  "test_rows": 2466,
+  "positive_rate": 0.1547,
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.1
+    },
+    "Decision Tree": {
+      "max_depth": 6,
+      "min_samples_leaf": 30
+    },
+    "KNN": {
+      "n_neighbors": 25
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.001
+    },
+    "Support Vector Machine": {
+      "C": 0.5
+    }
+  }
+}
